@@ -1,0 +1,2 @@
+# SxP
+ SxP is a Realtime Text-based Local Multiplayer Arcade game reminiscent of Brick Out and Space Invaders. Shoot and deflect your ball against the enemies before they reach you while dodging their bullets. Collect powerups that can turn the tide and play through multiple levels with increasingly difficult enemies and unique map mechanics with a friend, or play PvP and see who lasts the longest while also dodging each other's balls!

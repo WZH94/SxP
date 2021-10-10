@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="World Data">
+      <UniqueIdentifier>{3efd12e2-5cb9-4190-a5a1-589b577db299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game State">
+      <UniqueIdentifier>{bf073693-0e08-443e-b7a2-f07165208249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game State\GameStates">
+      <UniqueIdentifier>{c48b84ae-1ef7-4031-8146-cf5e87acc0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World Data\Enemy">
+      <UniqueIdentifier>{d4886d9a-9133-4458-bf99-0faad692f377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World Data\Enemy\Unique Enemies">
+      <UniqueIdentifier>{dc6d5c11-9079-42d0-8e2b-82d927ea3b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World Data\Stages">
+      <UniqueIdentifier>{5fafd55a-312f-4380-a332-11b5330756b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>World Data</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldData.h">
+      <Filter>World Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapManager.h">
+      <Filter>World Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>World Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>World Data</Filter>
+    </ClInclude>
+    <ClInclude Include="FMODInit.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffsDebuffs.h">
+      <Filter>World Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Powerups.h">
+      <Filter>World Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball_CollisionManager.h">
+      <Filter>World Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMainMenu.h">
+      <Filter>Game State</Filter>
+    </ClInclude>
+    <ClInclude Include="Hydra.h">
+      <Filter>World Data\Enemy\Unique Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Jebus.h">
+      <Filter>World Data\Enemy\Unique Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>World Data\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAI.h">
+      <Filter>World Data\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullets.h">
+      <Filter>World Data\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTypes.h">
+      <Filter>World Data\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInitialise.h">
+      <Filter>World Data\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="FireStage1.h">
+      <Filter>World Data\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="StageData.h">
+      <Filter>World Data\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalStage1.h">
+      <Filter>World Data\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalStage2.h">
+      <Filter>World Data\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="IceStage1.h">
+      <Filter>World Data\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="FireStage2.h">
+      <Filter>World Data\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Highscore.h">
+      <Filter>World Data</Filter>
+    </ClInclude>
+    <ClInclude Include="IceStage2.h">
+      <Filter>World Data\Stages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.c">
+      <Filter>World Data</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldData.c">
+      <Filter>World Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.c">
+      <Filter>World Data</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapManager.c">
+      <Filter>World Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.c">
+      <Filter>World Data</Filter>
+    </ClCompile>
+    <ClCompile Include="FMODInit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffsDebuffs.c">
+      <Filter>World Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Powerups.c">
+      <Filter>World Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball_CollisionManager.c">
+      <Filter>World Data</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMainMenu.c">
+      <Filter>Game State</Filter>
+    </ClCompile>
+    <ClCompile Include="Jebus.c">
+      <Filter>World Data\Enemy\Unique Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Hydra.c">
+      <Filter>World Data\Enemy\Unique Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.c">
+      <Filter>World Data\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAI.c">
+      <Filter>World Data\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullets.c">
+      <Filter>World Data\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTypes.c">
+      <Filter>World Data\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInitialise.c">
+      <Filter>World Data\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="FireStage1.c">
+      <Filter>World Data\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="StageData.c">
+      <Filter>World Data\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalStage1.c">
+      <Filter>World Data\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalStage2.c">
+      <Filter>World Data\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="IceStage1.c">
+      <Filter>World Data\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Highscore.c">
+      <Filter>World Data</Filter>
+    </ClCompile>
+    <ClCompile Include="FireStage2.c">
+      <Filter>World Data\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="IceStage2.c">
+      <Filter>World Data\Stages</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
